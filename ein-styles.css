@@ -1,0 +1,183 @@
+
+@font-face {
+  font-family: "Neue Montreal";
+  src: url("/fonts/NeueMontreal-Regular.ttf") format("truetype"),
+      url("/fonts/NeueMontreal-Italic.ttf") format("truetype"),
+       url("/fonts/NeueMontreal-Bold.ttf") format("truetype"),
+       url("/fonts/NeueMontreal-Light.ttf") format("truetype");
+}
+
+* {
+  font-family: "Neue Montreal", Helvetica, Arial, sans-serif;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+#hero {
+  background-color: lightslategray;
+  background-image: url(images/giants.jpeg);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: cover;
+  padding-top: 10rem !important;
+  padding-bottom: 10rem !important;
+}
+
+h1 {
+  font-size: 4rem;
+  line-height: 1;
+  padding-bottom: 20px;
+} 
+
+
+#hero-text {
+color: white;
+max-width: 700px;
+}
+
+#hero-text p {
+padding-left: 90px;
+padding-right: 90px;
+}
+
+#hero-text h1{
+  color: white;
+  font-size: 4rem;
+  font-weight: 500 !important;
+  line-height: 1.05;
+  letter-spacing: 1px;
+  }
+
+.card {
+  border: none;
+  border-top-left-radius: 200px;
+  border-top-right-radius: 200px;
+}
+
+img {
+  border-top-left-radius: 200px;
+  border-top-right-radius: 200px;
+}
+
+.btn-warning:hover {
+  background-color: rgb(33, 37, 41) !important;
+  color: #CCAB38;
+  border-color: rgb(33, 37, 41);;
+}
+
+.col{
+  padding: 35px;
+}
+
+.navbar-dark .navbar-toggler {
+  color: rgba(255, 255, 255, 0.55);
+  border-color: rgb(33, 37, 41);
+}
+
+.navbar-toggler:focus {
+  text-decoration: none;
+  outline: 0;
+  box-shadow: none;
+}
+
+.form-container {
+  padding-top: 10vh;
+  padding-bottom: 2vh;
+  color: white;
+  padding-left: 0%;
+
+}
+
+
+
+.table-container{
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+  color: white;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+
+.card-text{
+  font-weight: 700;
+  font-size: 1rem;
+  letter-spacing: -.5px;
+  font-kerning: auto;
+}
+
+.checkout-img{
+float: right;
+max-width: 420px;
+}
+
+.col-from {
+  padding-left: 0px !important;
+}
+
+.btn {
+  background-color: #CCAB38 !important;
+  border-color: #CCAB38;
+}
+
+.btn-primary {
+  color: #1c1c1c;
+  border-color: #CCAB38;
+} 
+/* MOBILE */
+
+
+
+@media screen and (max-width: 1200px) {
+
+  .image-col {
+    align-content: center;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #hero-text p {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .album{
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .col {
+    padding: 20px;
+    padding-top: 60px;
+  }
+
+  .checkout-img{
+    float: top;
+    max-width: 300px;
+    }
+
+  .image-col {
+    align-content: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  #logo {
+    max-height: 40px !important;
+  }
+
+}
